@@ -24,8 +24,8 @@ import org.testng.annotations.Test;
 public class MailRuTestChrome {
 
 	private static final String URL = "https://mail.ru";
-	private static final String USERNAME = "tanulina";
-	private static final String PASSWD = "6185509tanulina";
+	private static final String USERNAME = "";
+	private static final String PASSWD = "";
 	private static final String EMAIL_FIELD = "//input[@id = 'mailbox:login']";
 	private static final String PASSWD_FIELD = "//input[@id = 'mailbox:password']";
 	private static final String SUBMIT = "//input[@type='submit']";
