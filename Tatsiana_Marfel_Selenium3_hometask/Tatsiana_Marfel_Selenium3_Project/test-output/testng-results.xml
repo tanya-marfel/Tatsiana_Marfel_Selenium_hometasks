@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42420" started-at="2017-11-13T20:59:42Z" finished-at="2017-11-13T21:00:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42420" started-at="2017-11-13T20:59:42Z" finished-at="2017-11-13T21:00:24Z">
+      <class name="com.epam.ftm.selenium.part3.chrome.MailRuTestChrome">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="launchBrowser" is-config="true" duration-ms="2669" started-at="2017-11-13T23:59:42Z" description="Launch browser" finished-at="2017-11-13T23:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method name="addImplicitWait" signature="addImplicitWait()[pri:0, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" is-config="true" status="PASS" duration-ms="3549" finished-at="2017-11-13T23:59:48Z" started-at="2017-11-13T23:59:44Z" depends-on-methods="com.epam.ftm.selenium.part3.chrome.MailRuTestChrome.launchBrowser" description="Add implicit wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitWait -->
+        <test-method status="PASS" signature="loginToMailRu()[pri:0, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="loginToMailRu" duration-ms="1155" started-at="2017-11-13T23:59:48Z" description="Sign in to MailRu account" finished-at="2017-11-13T23:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMailRu -->
+        <test-method status="PASS" signature="createLetter()[pri:1, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="createLetter" duration-ms="25872" started-at="2017-11-13T23:59:49Z" description="Compose new letter" finished-at="2017-11-14T00:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLetter -->
+        <test-method status="PASS" signature="saveDraft()[pri:2, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="saveDraft" duration-ms="1413" started-at="2017-11-14T00:00:15Z" description="Save the mail as a draft." depends-on-methods="com.epam.ftm.selenium.part3.chrome.MailRuTestChrome.createLetter" finished-at="2017-11-14T00:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveDraft -->
+        <test-method status="PASS" signature="draftExist()[pri:3, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="draftExist" duration-ms="1858" started-at="2017-11-14T00:00:16Z" description="Verify, that the mail presents in ‘Drafts’ folder." depends-on-methods="com.epam.ftm.selenium.part3.chrome.MailRuTestChrome.saveDraft" finished-at="2017-11-14T00:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draftExist -->
+        <test-method status="PASS" signature="verifyContent()[pri:4, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="verifyContent" duration-ms="2624" started-at="2017-11-14T00:00:18Z" description="Verify the draft content, send the letter and check it is no longer in the Drafts folder" finished-at="2017-11-14T00:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContent -->
+        <test-method status="PASS" signature="verifyMessageSent()[pri:5, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="verifyMessageSent" duration-ms="204" started-at="2017-11-14T00:00:21Z" description="Verify, that the mail is in ‘Sent’ folder." finished-at="2017-11-14T00:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageSent -->
+        <test-method status="PASS" signature="signOut()[pri:6, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="signOut" duration-ms="2830" started-at="2017-11-14T00:00:21Z" description="Sign out" finished-at="2017-11-14T00:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.ftm.selenium.part3.chrome.MailRuTestChrome@4cc0edeb]" name="stopBrowser" is-config="true" duration-ms="199" started-at="2017-11-14T00:00:24Z" description="Stop Browser" finished-at="2017-11-14T00:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.ftm.selenium.part3.chrome.MailRuTestChrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
